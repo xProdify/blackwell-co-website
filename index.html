@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blackwell & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="overlay-shape"></div>
+
+  <header>
+    <img src="blackwell logo.png" alt="Blackwell & Co. logo" class="logo" />
+    <button id="toggle-theme" aria-label="Toggle Dark/Light Mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Blackwell & Co.</h1>
+      <p>Elite Oil Trading & Investment</p>
+      <div class="laurel-leaf">
+        <!-- Laurel Leaf SVG -->
+        <svg width="80" height="80" viewBox="0 0 64 64" fill="none" stroke="gold" stroke-width="2" stroke-linejoin="round">
+          <path d="M32 4 L24 20 L20 40 L16 60" />
+          <path d="M32 4 L40 20 L44 40 L48 60" />
+        </svg>
+      </div>
+    </section>
+
+    <section class="oil-price-widget">
+      <h2>Live Oil Price</h2>
+      <div id="price">$--.-- / barrel</div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>Get notified when we post oil market updates and news.</p>
+      <form id="signup-form">
+        <input type="email" id="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="form-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Blackwell & Co.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section class="newsletter">
+  <h2>Stay Updated</h2>
+  <p>Get notified when we post oil market updates and news.</p>
+  <form id="signup-form">
+    <input type="email" id="email" placeholder="Enter your email" required />
+    <button type="submit">Subscribe</button>
+  </form>
+  <div id="form-message"></div>
+</section>
